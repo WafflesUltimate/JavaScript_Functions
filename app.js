@@ -32,7 +32,7 @@ function checkAge(userName, age) {
         }
 
         if (age >= 16) { console.log(aboveSixteen); }
-        else (age < 16) { console.log(belowSixteen); }
+        else { console.log(belowSixteen); }
     }
     else { return false; }
 }
